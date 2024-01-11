@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+.common_section {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+/* 
+                                    New year header banner.
+=========================================================================================
+*/
+#new_year_banner {
+    margin: 50px 0 120px;
+    border-radius: 15px;
+    background-image: url("../images/banners/banner_image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.new_year_banner_padding {
+    border-radius: 15px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    padding: 180px 345px;
+}
+
+.new_year_banner_padding h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.new_year_banner_padding h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
