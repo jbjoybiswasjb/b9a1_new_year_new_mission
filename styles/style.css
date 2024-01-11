@@ -155,7 +155,7 @@ body {
 
 
 /* 
-                                 section.
+                                New park section.
 =============================================================================
 */
 #new_parck {
@@ -192,4 +192,73 @@ body {
     border: none;
     border-radius: 10px;
     margin-top: 50px;
+}
+
+
+
+/* 
+                                Best offer section.
+=============================================================================
+*/
+.best_offer_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+/* Offer left. */
+.offer_left h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.offer_left h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 15px 0 20px;
+}
+
+.offer_left p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+/* Offer center. */
+.offer_center {
+    border: 15px solid #F00;
+    background-color: #fff;
+    border-radius: 463px;
+}
+
+.offer_center img {
+    padding: 30px;
+}
+
+/* Offer right. */
+.offer_right {
+    margin-left: 50px;
+}
+
+.offer_right h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.offer_right p {
+    margin: 15px 0 40px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
 }
