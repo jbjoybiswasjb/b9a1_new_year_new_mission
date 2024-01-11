@@ -158,3 +158,38 @@ body {
                                  section.
 =============================================================================
 */
+#new_parck {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 15px;
+}
+
+.new_park_padding {
+    text-align: center;
+    padding: 110px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.new_park_padding p {
+    color: #070211;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 55px;
+    text-transform: capitalize;
+}
+
+.new_park_padding p span {
+    color: #F00;
+}
+
+.new_park_button {
+    padding: 15px 30px;
+    color: #FFF;
+    background-color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+}
