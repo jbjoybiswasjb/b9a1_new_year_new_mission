@@ -25,7 +25,7 @@ body {
 */
 
 #new_year_banner {
-    margin: 50px 0 120px;
+    margin-top: 50px;
     border-radius: 15px;
     background-image: url("../images/banners/banner_image.png");
     background-repeat: no-repeat;
@@ -98,3 +98,63 @@ body {
     font-weight: 700;
     margin: 15px 0 50px;
 }
+
+
+
+/* 
+                                Midnight party section.
+=============================================================================
+*/
+
+#midnight_pary {
+    margin-top: 50px;
+    border-radius: 15px;
+    background-image: url("../images/banners/vector.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.midnight_paddig {
+    border-radius: 15px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    padding: 130px;
+    width: 800px;
+}
+
+.midnight_paddig h5 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 90px;
+    letter-spacing: 7px;
+}
+
+.midnight_paddig p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 25px 0;
+}
+
+.midnight_paddig button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+/* 
+                                 section.
+=============================================================================
+*/
