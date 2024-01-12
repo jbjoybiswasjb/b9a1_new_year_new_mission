@@ -39,7 +39,7 @@ body {
     padding: 180px 345px;
 }
 
-.new_year_banner_padding h1 {
+.new_year_banner_padding h2 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -47,7 +47,7 @@ body {
     font-weight: 400;
 }
 
-.new_year_banner_padding h2 {
+.new_year_banner_padding h1 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
