@@ -262,3 +262,110 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
+
+
+/* 
+                                Holidays section.
+=============================================================================
+*/
+
+/* Holidays text section. */
+#holidays_text {
+    text-align: center;
+}
+
+#holidays_text>h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+#holidays_text>h3 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holidays_color {
+    color: #F00;
+}
+
+#holidays_text>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 30px 0 65px;
+}
+
+/* Holidays pics section. */
+#holidays_pics>div>div img {
+    display: block;
+    max-width: 100%;
+}
+
+.holidays_pic_right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#holidays_pics>div>div {
+    background-image: url("../images/group79.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+
+
+
+
+/* 
+                                Awesome portfolio section.
+=============================================================================
+*/
+
+/* Awesome porfolio text. */
+#awesome_porfolio_text h5 {
+    margin-bottom: 15px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#awesome_porfolio_text h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+#awesome_porfolio_text p {
+    margin: 20px 0 45px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+/* Awesome porfolio photos. */
+.awesome_photos_flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.awesome_photos_flex div{
+    width: 30%;
+    margin: 25px 0 25px;
+}
+
+.awesome_photos_flex img{
+    display: block;
+    max-width: 100%;
+}
