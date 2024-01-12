@@ -399,7 +399,30 @@ body {
     line-height: 30px;
 }
 
-#subscribe_newslatter input {}
+.subscribe_input input,
+button {
+    border: none;
+}
+
+.subscribe_input input {
+    border-radius: 50px 0 0 50px;
+    padding: 25px 30px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.subscribe_input button {
+    border-radius: 0 50px 50px 0;
+    padding: 25px 55px;
+    background-color: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 
 
@@ -453,7 +476,7 @@ footer {
 }
 
 /* Footer subscribe. */
-.footer_subscribe{
+.footer_subscribe {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
@@ -463,7 +486,7 @@ footer {
     font-weight: 500;
 }
 
-.footer_subscribe button{
+.footer_subscribe button {
     border: none;
     color: #FFF;
     font-family: Inter;
