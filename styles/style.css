@@ -355,17 +355,48 @@ body {
 
 
 /* Awesome porfolio photos. */
-.awesome_photos_flex{
+.awesome_photos_flex {
     display: flex;
     justify-content: space-between;
 }
 
-.awesome_photos_flex div{
+.awesome_photos_flex div {
     width: 30%;
     margin: 25px 0 25px;
 }
 
-.awesome_photos_flex img{
+.awesome_photos_flex img {
     display: block;
     max-width: 100%;
 }
+
+
+
+/* 
+                            Subscribe Newslatter section.
+=============================================================================
+*/
+#subscribe_newslatter {
+    text-align: center;
+    padding: 80px 215px;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+#subscribe_newslatter h4 {
+    margin: 20px 0 40px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+#subscribe_newslatter p {
+    margin-bottom: 45px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#subscribe_newslatter input {}
