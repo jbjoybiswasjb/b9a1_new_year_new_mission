@@ -466,6 +466,7 @@ footer {
     justify-content: space-between;
     font-family: 'Inter', sans-serif;
     font-size: 25px;
+    margin-bottom: 50px;
 }
 
 .footer_top div {
@@ -486,7 +487,7 @@ footer {
 .footer_top_social {
     display: flex;
     justify-content: center;
-    margin: 95px 0;
+    margin: 50px 0;
 }
 
 .footer_top_social ul {
