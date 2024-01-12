@@ -400,3 +400,74 @@ body {
 }
 
 #subscribe_newslatter input {}
+
+
+
+
+/* 
+                                        Footer.
+=========================================================================================
+*/
+footer {
+    background-color: #070211;
+    color: #fff;
+}
+
+.common_section_bottom {
+    margin-bottom: 0;
+    padding: 120px 0;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+}
+
+.footer_top div {
+    padding-right: 100px;
+}
+
+.footer_top address {
+    font-style: normal;
+    line-height: 40px;
+}
+
+.common_section_bottom hr {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+}
+
+.footer_top_social {
+    display: flex;
+    justify-content: center;
+    margin: 95px 0;
+}
+
+.footer_top_social ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+/* Footer subscribe. */
+.footer_subscribe{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.footer_subscribe button{
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #070211;
+}
