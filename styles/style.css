@@ -302,7 +302,17 @@ body {
 }
 
 /* Holidays pics section. */
-#holidays_pics>div>div img {
+#holidays_pics{
+    width: 100%;
+    position: relative;
+}
+
+
+.holiday_photos_bottom img{
+    width: 100%;
+}
+
+#holidays_pics img{
     display: block;
     max-width: 100%;
 }
@@ -312,13 +322,22 @@ body {
     justify-content: flex-end;
 }
 
-#holidays_pics>div>div {
-    background-image: url("../images/group79.png");
-    background-repeat: no-repeat;
-    background-position: left bottom;
+.holiday_photos_left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
+.holiday_photos_left img{
+    height: 100%;
+    width: 80%;
+}
 
+.holiday_photos_right {
+    position: absolute;
+    right: 25%;
+    top: 20%;
+}
 
 
 
