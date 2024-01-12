@@ -389,6 +389,10 @@ body {
     max-width: 100%;
 }
 
+.awesome_photos_flex div:hover{
+    rotate: 360deg;
+    transition: .3s;
+}
 
 
 /* 
